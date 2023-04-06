@@ -18,26 +18,29 @@ public class Main {
                 "----------------------------------------------------------------------------\n" +
                 "Boa Sorte e que o Jogo Comece!\n" +
                 "----------------------------------------------------------------------------");
-        Capitulo Capitulo1 = new Capitulo("Capitulo 1",
-                "Nossa História começa com um Zé ninguém, Liwbert Danis, escritor, homem solteiro, sem família, nunca foi amado por ninguém"
-                        +
-                        "nos seus 30 e poucos anos de vida, ele se encontra em uma viagem desesperada a uma ilha isolada tentando encontrar"
-                        +
-                        " inspirações para que seja lembrado um dia por suas obras mediocres, dias se passam desde sua estadia no complexo de apartamentos"
-                        +
-                        " que ele encontrou como estadia na ilha, mas nem uma palavra sequer saíram para as páginas de seu livro, ele decide "
-                        +
-                        "fazer algo para desocupar a mente, o que ele irá fazer?\n",
-                new String[] { "Dormir", "tomar um ar", "beber", "Acabar com sofrimento" }, 0);
+        Capitulo Capitulo1 = new Capitulo("Capitulo 1", "Bem vindo ao jogo de escolhas 'Labirinto Mental'\n" +
+                "Seu objetivo é sobreviver e evitar sua perca de >Sanidade< durante o jogo, mas como?\n" +
+                "Suas escolhas colocarão o receptaculo em segurança, ou em situações perturbadoras que questionarão sua >Sanidade<\n"
+                +
+                "essas escolhas serão feitas a partir de opções, digite:\n" +
+                "----------------------------------------------------------------------------\n" +
+                " 1)\n 2)\n 3)\n 4)\n\n\n" +
+                "----------------------------------------------------------------------------\n" +
+                "Boa Sorte e que o Jogo Comece!\n" +
+                "----------------------------------------------------------------------------\n\n\n" +
+                "Nossa História começa com um Zé ninguém, Liwbert Danis, escritor, homem solteiro, sem família, nunca foi amado por ninguém\n"
+                +
+                "nos seus 30 e poucos anos de vida, ele se encontra em uma viagem desesperada a uma ilha isolada tentando encontrar\n"
+                +
+                "inspirações para que seja lembrado um dia por suas obras mediocres, dias se passam desde sua estadia no complexo de apartamentos\n"
+                +
+                "que ele encontrou como estadia na ilha, mas nem uma palavra sequer saíram para as páginas de seu livro, ele decide\n"
+                +
+                "fazer algo para desocupar a mente, o que ele irá fazer?\n",
+                new String[] { "Dormir", "tomar um ar", "Acabar com sofrimento" }, 0);
         Capitulo1.mostrar();
         String r1 = scan.next();
         if (r1.equals("3")) {
-            Capitulo Capitulo12 = new Capitulo("Capitulo 12", p1.getNome()
-                    + " sai de sua moradia deixando seus tormentos de lado e parte para o bar mais próximo, tentando afogar seus demônios\n"
-                    + "com álcool, o que fazer agora que já está no bar?\n",
-                    new String[] { "Vodka", "Whisky", "Cerveja", "acabar com sofrimeto" }, 0);
-            Capitulo12.mostrar();
-        } else if (r1.equals("4")) {
             Capitulo Capitulo13 = new Capitulo("Capitulo 13", p1.getNome()
                     + " não aguenta mais a tortura, ele pega uma cadeira para alcançar o teto e prende sua bela graváta\n"
                     +
@@ -45,8 +48,7 @@ public class Main {
                     new String[] {}, -9999);
             Capitulo13.mostrar();
             p1.Dsanidade(-9999, p1);
-        } 
-        else if (r1.equals("1")) {
+        } else if (r1.equals("1")) {
             Capitulo Capitulo2 = new Capitulo("Capitulo 2", p1.getNome()
                     + " deita para descansar e em alguns minutos adormece e entra em sono profundo.\n"
                     + "De repente, ele se encontra em uma caverna escura, não consegue ver ou sentir nada além do odor podre de peixe e a água\n"
@@ -64,7 +66,7 @@ public class Main {
                         "uma chave no chão, ele pega a chave e abre a porta, ele se encontra em uma sala com uma mesa e uma cadeira, iluminada por uma tocha, em cima da mesa há um livro\n"
                         +
                         "estava escrito Necronomicon, o livro tinha um rosto e a capa parecia feita com pele humana,"
-                        + p1.getNome() + "se sentia enojado, mas curioso, ele pegou o livro\n" +
+                        + p1.getNome() + " se sentia enojado, mas curioso, ele pegou o livro\n" +
                         "o que" + p1.getNome() + " deve fazer?\n",
                         new String[] { "ler o livro", "devolver o livro", "queimar o Livro" }, 0);
                 Capitulo3.mostrar();
@@ -114,7 +116,7 @@ public class Main {
             Capitulo Capitulo8 = new Capitulo("Capitulo 8",
                     p1.getNome()
                             + " sai do apartamento e vai dar uma volta para desparecer e respirar, para onde ele vai?\n",
-                    new String[] { "floresta", "pier"}, 0);
+                    new String[] { "floresta", "pier" }, 0);
             Capitulo8.mostrar();
             String r2 = scan.next();
             if (r2.equals("1")) {
@@ -132,45 +134,47 @@ public class Main {
                 Capitulo9.mostrar();
                 p1.Dsanidade(-20, p1);
                 p2.Dsanidade(-20, p2);
-            }
-            else if (r2.equals("2")) {
-                Capitulo Capitulo22 = new Capitulo("Capitulo 22", p1.getNome() + " se dirige ao pier e lá ele se depar com o mar\n" +
-                "o mar está calmo, ele decide descer até a água para se refrescar, ao entrar na praia, " + p1.getNome() +
-                "se depara com seu fim, o Deus ancestral Cthullu aparece, não há escapatória, você perdeu toda sanidade", new String[] {}, -9999);
+            } else if (r2.equals("2")) {
+                Capitulo Capitulo22 = new Capitulo("Capitulo 22", p1.getNome()
+                        + " se dirige ao pier e lá ele se depar com o mar\n" +
+                        "o mar está calmo, ele decide descer até a água para se refrescar, ao entrar na praia, "
+                        + p1.getNome() +
+                        "se depara com seu fim, o Deus ancestral Cthullu aparece, não há escapatória, você perdeu toda sanidade",
+                        new String[] {}, -9999);
                 Capitulo22.mostrar();
                 p1.Dsanidade(-9999, p1);
             }
-                String r3 = scan.next();
-                if (r3.equals("1")) {
-                    Capitulo Capitulo10 = new Capitulo("Capitulo 10", p1.getNome()
-                            + " decide ir embora, ele sai do quarto e se depara com o homem que o atacou, ele se aproxima e o homem\n"
-                            +
-                            "o esfaqueia, " + p1.getNome() + " morre, perdendo -9999 de >Sanidade<", new String[] {},
-                            -9999);
-                    Capitulo10.mostrar();
-                    p1.Dsanidade(-9999, p1);
-                } else if (r3.equals("2")) {
-                    Capitulo Capitulo11 = new Capitulo("Capitulo 11", p1.getNome()
-                            + " decide ficar, ele se senta na cama e começa a pensar, ele se lembra de um livro que ele tinha lido\n"
-                            +
-                            "quando era criança, ele se lembra de um capitulo que falava sobre um homem que se encontrava em um quarto, com uma faca ensanguentada\n"
-                            +
-                            "e que ele tinha que ficar ali, e que se ele saisse, ele morreria, mas se ele ficasse, ele poderia sobreviver",
-                            new String[] {}, 0);
-                    Capitulo11.mostrar();
-                    System.out.println(
-                            "Você está preso, porém, você pode sobreviver, parabéns, você venceu o jogo, ou quase?\n");
-                } else {
-                    System.out.println("escolha inválida");
-                }
-            } 
-            
-            else {
+            String r3 = scan.next();
+            if (r3.equals("1")) {
+                Capitulo Capitulo10 = new Capitulo("Capitulo 10", p1.getNome()
+                        + " decide ir embora, ele sai do quarto e se depara com o homem que o atacou, ele se aproxima e o homem\n"
+                        +
+                        "o esfaqueia, " + p1.getNome() + " morre, perdendo -9999 de >Sanidade<", new String[] {},
+                        -9999);
+                Capitulo10.mostrar();
+                p1.Dsanidade(-9999, p1);
+            } else if (r3.equals("2")) {
+                Capitulo Capitulo11 = new Capitulo("Capitulo 11", p1.getNome()
+                        + " decide ficar, ele se senta na cama e começa a pensar, ele se lembra de um livro que ele tinha lido\n"
+                        +
+                        "quando era criança, ele se lembra de um capitulo que falava sobre um homem que se encontrava em um quarto, com uma faca ensanguentada\n"
+                        +
+                        "e que ele tinha que ficar ali, e que se ele saisse, ele morreria, mas se ele ficasse, ele poderia sobreviver",
+                        new String[] {}, 0);
+                Capitulo11.mostrar();
+                System.out.println(
+                        "Você está preso, porém, você pode sobreviver, parabéns, você venceu o jogo, ou quase?\n");
+            } else {
                 System.out.println("escolha inválida");
             }
-            if (p1.getSanidade() <= 0) {
-                System.out.println("VOCÊ PERDEU TODA A SUA SANIDADE, VOCÊ ENLOUQUECEU");
-            }
+        }
+
+        else {
+            System.out.println("escolha inválida");
+        }
+        if (p1.getSanidade() <= 0) {
+            System.out.println("VOCÊ PERDEU TODA A SUA SANIDADE, VOCÊ ENLOUQUECEU");
+        }
         scan.close();
     }
 }
