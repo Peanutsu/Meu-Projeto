@@ -1,0 +1,129 @@
+CAPITULO
+NOME:
+Capitulo 1
+TEXTO:
+Bem vindo ao jogo de escolhas 'Labirinto Mental'\nSeu objetivo é sobreviver e evitar sua perca de >Sanidade< durante o jogo, mas como?\nSuas escolhas colocarão o receptaculo em segurança, ou em situações perturbadoras que questionarão sua >Sanidade<\nessas escolhas serão feitas a partir de opções, digite:\n----------------------------------------------------------------------------\n 1)\n 2)\n 3)\n 4)\n\n\n----------------------------------------------------------------------------\nBoa Sorte e que o Jogo Comece!\n----------------------------------------------------------------------------\n\n\nNossa História começa com um Zé ninguém, Liwbert Danis, escritor, homem solteiro, sem família, nunca foi amado por ninguém\nnos seus 30 e poucos anos de vida, ele se encontra em uma viagem desesperada a uma ilha isolada tentando encontrar\ninspirações para que seja lembrado um dia por suas obras mediocres, dias se passam desde sua estadia no complexo de apartamentos\nque ele encontrou como estadia na ilha, mas nem uma palavra sequer saíram para as páginas de seu livro, ele decide\nfazer algo para desocupar a mente, o que ele irá fazer?\n
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+0
+
+CAPITULO
+NOME:
+Capitulo 13
+TEXTO:
+"+ p1.getNome() + " não aguenta mais a tortura, ele pega uma cadeira para alcançar o teto e prende sua bela graváta\nentão ele empurra a cadeira e se enforca, acabando do jeito que ele pôde com o Sofrimento\n-9999 DE >SANIDADE<
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+-9999
+
+CAPITULO
+NOME:
+Capitulo 2
+TEXTO:
+" + p1.getNome() + " deita para descansar e em alguns minutos adormece e entra em sono profundo.\n"+"De repente, ele se encontra em uma caverna escura, não consegue ver ou sentir nada além do odor podre de peixe e a água\n"+"que chega aos seus tornozelos, tentando seguir uma fraca luz ao longe, ele encontra dois grandes buracos, talvez um deles\n"+"levasse ele para fora deste pesadelo, qual caminho seguir?\n
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+0
+
+CAPITULO
+NOME:
+Capitulo 3
+TEXTO:
+" + p1.getNome() + " decide seguir pela passagem para baixo, ele se encontra em uma sala com uma porta, a porta está trancada, mas ele consegue ver\n"+"uma chave no chão, ele pega a chave e abre a porta, ele se encontra em uma sala com uma mesa e uma cadeira, iluminada por uma tocha, em cima da mesa há um livro\n"+"estava escrito Necronomicon, o livro tinha um rosto e a capa parecia feita com pele humana,"+ p1.getNome() + " se sentia enojado, mas curioso, ele pegou o livro\n" + "o que" + p1.getNome() + " deve fazer?\n
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+0
+
+CAPITULO
+NOME:
+Capitulo 4
+TEXTO:
+Ao ler o Necronomicon" + p1.getNome()+ " encontra passagens sobre demonios antigos 'Candarianos' e seres\n" +"divinos com nomes impronunciaveis 'Yog Sothoth', 'Cthulhu', 'Azathoth', ao pronunciar esses nomes ele sentiu calafrios\n"+"Mas apesar do medo," + p1.getNome()+ " não conseguia parar de ler, ao encontrar um desenho que descrevia precisamente\n" + "sua aparencia no livro maldito, ele entra em choque e então.... ele acorda
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+0
+
+CAPITULO
+NOME:
+Capitulo 5
+TEXTO:
+" + p1.getNome()+ " decide seguir a passagem da água, após um tempo andando ele percebe que o caminho estava descendo mais e mais, e com isso\n"+ "a água estava subindo, obestinado a encontrar o final ele segue em frente mais e mais, até que enfim, se depara com o fim da passagem, a água ja chegava\n"+"até seus ombros quando ele encontrou outra passagem, ao atrvessa-lá, ele da de cara com uma sala de pedra, como uma redoma, no centro dela, um cranio humano\n"+"seus 'olhos' jorravam toda a água que estava ao seu redor, do outro lado da sala, uma porta.\n
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+0
+
+CAPITULO
+NOME:
+Capitulo 6
+TEXTO:
+" + p1.getNome() + " decide retirar o crânio, ele se aproxima e pega ele, logo" + p1.getNome() + " percebe que o crânio\n" + "Abre a boca, começando a jorrar mais e mais água, a passagem pela qual ele veio sumiu e a porta a frente também\n"+"logo, a sala se enche de água e" + p1.getNome()+ "  apesar de seus esforços, se afoga, morrendo.\n-9999 de Sanidade
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+-9999
+
+CAPITULO
+NOME:
+Capitulo 7
+TEXTO:
+" + p1.getNome() + " decide ignorar o crânio e segue até a porta, ao atravessar, a porta se fecha, ele está preso, e algo o segura, é o fim -9999 de SANIDADE
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+0
+
+CAPITULO
+NOME:
+Capitulo 8
+TEXTO:
+" + p1.getNome() + " sai do apartamento e vai dar uma volta para desparecer e respirar, para onde ele vai?\n
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+0
+
+CAPITULO
+NOME:
+Capitulo 9
+TEXTO:
+" + p1.getNome() + " decide ir para a floresta, ele se encontra em uma floresta densa, com árvores enormes e folhas que cobrem o chão\n"+"ele se perdeu, mas não se importa, ele está em paz longe de seus próprios pensamentos, até que ele escuta um barulho, e vê um"+ p2.getNome() + ", com uma faca\n"+"o " + p2.getNome() + " se aproxima de " + p1.getNome() + " e o ataca," + p1.getNome()+ " consegue se defender e o homem some, perdendo 20 de >Sanidade<, mas ele não consegue se livrar da faca, ele se sente fraco\n"+"e desmaia, quando acorda, ele se encontra em um quarto, com uma cama e uma mesa, em cima da mesa, uma faca ensanguentada, "+ p1.getNome() + "se sente estranho perndendo -20 de >Sanidade\n
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+-20
+
+CAPITULO
+NOME:
+Capitulo 22
+TEXTO:
+" + p1.getNome() + " se dirige ao pier e lá ele se depar com o mar\n" +"o mar está calmo, ele decide descer até a água para se refrescar, ao entrar na praia, "+ p1.getNome() +"se depara com seu fim, o Deus ancestral Cthullu aparece, não há escapatória, você perdeu toda sanidade
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+-9999
+
+CAPITULO
+NOME:
+Capitulo 10
+TEXTO:
+"+ p1.getNome() + " decide ir embora, ele sai do quarto e se depara com o homem que o atacou, ele se aproxima e o homem\n"+"o esfaqueia, " + p1.getNome() + " morre, perdendo -9999 de >Sanidade<
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+-9999
+
+CAPITULO
+NOME:
+Capitulo 11
+TEXTO:
+" + p1.getNome() + " decide ficar, ele se senta na cama e começa a pensar, ele se lembra de um livro que ele tinha lido, o Necronomicon\n"+"quando era criança, ele se lembra de um capitulo que falava sobre um homem que se encontrava em um quarto, com uma faca ensanguentada\n"+ "e que ele tinha que ficar ali até a morte, e que se ele saisse, ele seria morto\n" + "Você está preso, porém, você pôde sobreviver, preso eternamente em um quarto pequeno, parabéns, você venceu o jogo, ou quase?\n 
+PERSONAGEM:
+p1
+VARIAÇÃO E:
+0

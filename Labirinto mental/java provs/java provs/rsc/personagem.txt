@@ -1,0 +1,10 @@
+PERSONAGEM
+NOME:
+Liwbert
+SANIDADE:
+100
+PERSONAGEM
+NOME:
+Homem Desconhecido
+SANIDADE:
+100
