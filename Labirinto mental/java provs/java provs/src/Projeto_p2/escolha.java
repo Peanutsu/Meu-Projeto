@@ -1,28 +1,11 @@
 package Projeto_p2;
-public class escolha {
+public class Escolha {
 
-    private String texto;
-    private Capitulo proximo;
+    String Texto;
+    Capitulo Proximo;
 
-    public escolha(String texto, Capitulo proximo) {
-        setTexto(texto);
-        setProximo(proximo);
+    public Escolha(String texto, Capitulo proximo) {
+        Texto = texto;
+        Proximo = proximo;
     }
-
-    public String getTexto() {
-        return this.texto;
-    }
-
-    public void setTexto(String texto) {
-        this.texto = texto;
-    }
-
-    public Capitulo getProximo() {
-        return proximo;
-    }
-
-    public void setProximo(Capitulo proximo) {
-        this.proximo = proximo;
-    }
-
 }
